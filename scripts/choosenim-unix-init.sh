@@ -159,7 +159,7 @@ get_platform() {
       local mycpu="powerpc" ;;
     *mips* )
       local mycpu="mips" ;;
-    *arm*|*armv6l* )
+    *arm*|*armv6l*|*armv7l* )
       local mycpu="arm" ;;
     *aarch64* )
       local mycpu="arm64" ;;
